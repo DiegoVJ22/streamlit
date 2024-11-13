@@ -14,8 +14,8 @@ with st.container():
         de características. El procesamiento adecuado de los datos asegura que el modelo tenga un buen 
         rendimiento y precise de predicciones confiables.
         """)
-    #with col2:
-        #st.image("static/procesamiento.webp", use_column_width=True)
+    with col2:
+        st.image("static/procesamiento.webp", use_column_width=True)
 
 # Regresión Lineal Simple
 with st.container():
@@ -28,8 +28,8 @@ with st.container():
         a través de gráficos de dispersión con una línea de tendencia. Este módulo permite entrenar el modelo 
         y evaluar su precisión.
         """)
-    #with col2:
-        #st.image("static/lineal_simple.webp", use_column_width=True)
+    with col2:
+        st.image("static/lineal_simple.webp", use_column_width=True)
 
 # Regresión Lineal Múltiple
 with st.container():
@@ -42,5 +42,5 @@ with st.container():
         que optimiza el modelo seleccionando solo las variables más relevantes para hacer predicciones 
         más precisas.
         """)
-    #with col2:
-        #st.image("static/lineal_multiple.webp", use_column_width=True)
+    with col2:
+        st.image("static/lineal_multiple.webp", use_column_width=True)
