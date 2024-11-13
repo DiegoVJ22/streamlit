@@ -15,7 +15,7 @@ with st.container():
         rendimiento y precise de predicciones confiables.
         """)
     with col2:
-        st.image("static/procesamiento.webp", use_column_width=True)
+        st.image("static/procesamiento.webp", use_container_width=True)
 
 # Regresión Lineal Simple
 with st.container():
@@ -29,7 +29,7 @@ with st.container():
         y evaluar su precisión.
         """)
     with col2:
-        st.image("static/lineal_simple.webp", use_column_width=True)
+        st.image("static/lineal_simple.webp", use_container_width=True)
 
 # Regresión Lineal Múltiple
 with st.container():
@@ -43,4 +43,4 @@ with st.container():
         más precisas.
         """)
     with col2:
-        st.image("static/lineal_multiple.webp", use_column_width=True)
+        st.image("static/lineal_multiple.webp", use_container_width=True)
