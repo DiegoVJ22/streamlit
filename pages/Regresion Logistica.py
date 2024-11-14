@@ -131,3 +131,4 @@ if st.sidebar.button("Predecir"):
     prediction = model.predict(new_example_scaled)
     result_phrase = "DEFECTUOSO" if prediction[0] == 1 else "NO DEFECTUOSO"
     st.sidebar.write(f"### Resultado: {result_phrase}")
+    
